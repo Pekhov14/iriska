@@ -14,7 +14,7 @@ services:
             - POSTGRES_PASSWORD=iriska
             - POSTGRES_DB=iriska
         ports:
-            - '8084:5432'
+            - '5432:5432'
 
     webserver:
         image: 'nginx:alpine'
